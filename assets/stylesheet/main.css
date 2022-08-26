@@ -383,12 +383,14 @@ body {
 }
 
 .pjt-link-btn {
-  background: #dddbdb;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
-  height: 30px;
   margin-right: 10px;
+}
+
+.pjt-link-btn :hover {
+  background: #dddbdb;
   border-radius: 10px;
 }
